@@ -1,0 +1,13 @@
+1 . Admission date: year ??????
+
+2. Multiple codes of a patient (currently only leave one record). Need to remove label with less occurance? 
+   how many labels = labels in train? need to remove label existing in val/test but not in train?
+
+3. Tokenize sum / or hidden state concatenate, how to treat sequence length?
+   tokenize: for every instance, sum until less than max sequency length, multiply attention masks?
+             will pass the embedding limit                
+  
+   how to choose split size and max length?
+   retain CLS and SEP?
+   hidden state: how many berts need to be trained?
+
