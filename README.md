@@ -3,7 +3,7 @@ This is a course project for BMSC-GA 4493, Deep Learning in  Medicine, Master of
 
 The project is done by Junge Zhang and Xiaoyi Zhang
 
-The original data is form MIMIC-III Clinical Database, and has been preprocessed by Xiaoyi Zhang from another project.
+The original data is from MIMIC-III Clinical Database, and has been preprocessed by Xiaoyi Zhang from another project.
 
 The project target is to use BERT/RoBERTa to automatically encode ICD-9 codes for patients(multi-label for each patient) with long sequence of discharge summary.
 
